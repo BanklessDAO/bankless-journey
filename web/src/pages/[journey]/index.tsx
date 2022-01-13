@@ -75,7 +75,7 @@ export default function JourneyPage(props: Props) {
   return <>
     <div>
       <Box as='section' p='8' borderRadius="xl" bg={bgBox}>
-        <Heading as="h2" mb='4'>{journey.name}</Heading>
+        {/* <Heading as="h2" mb='4'>{journey.name}</Heading> */}
         <Text fontSize="xl">{journey.description}</Text>
         
         <Flex alignItems='center'>

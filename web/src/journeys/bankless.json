@@ -1,7 +1,7 @@
 {
   "name": "Bankless Journey 🏴🚀",
   "version": 1,
-  "description": "It's time to start your Bankless Journey. Complete these tasks in order to be more Bankless!",
+  "description": "Complete these tasks in order to start your Bankless Journey! 🏴🚀",
   "website": "https://www.bankless.community/",
   "twitter": "banklessDAO",
   "tasks": [
@@ -13,7 +13,7 @@
     },
     {
       "name": "🏴 OG Bankless Member",
-      "description": "Every Bankless subscriber will receive 400 tokens for holding a Bankless Member POAP (2020 or 2021).",
+      "description": "Bankless subscribers who own a Bankless POAP from 2020 or 2021.",
       "points": 400,
       "verifier": "has-poap-ids",
       "params": {
@@ -22,7 +22,7 @@
     },
     {
       "name": "📚 Bankless Learner",
-      "description": "Everyone who has completed at least 1 lesson on Bankless Academy will receive 400 tokens.",
+      "description": "Complete at least 1 lesson on Bankless Academy.",
       "points": 400,
       "verifier": "has-poap-ids",
       "params": {
@@ -30,8 +30,8 @@
       }
     },
     {
-      "name": "✌️ Owns a DAO Punk",
-      "description": "Every DAO Punk owner will receive 400 tokens.",
+      "name": "✌️ Own a DAO Punk",
+      "description": "Liberate yourself from corporation and join a DAO! For all DAO Punk NFT owners.",
       "points": 400,
       "verifier": "has-nft",
       "params": {
@@ -39,8 +39,8 @@
       }
     },
     {
-      "name": "🗺 Owns a Bankless Location",
-      "description": "Every Bankless Location owner will receive 400 tokens.",
+      "name": "🗺 Own a Bankless Location",
+      "description": "Own a Bankless Location NFT to own a piece of DAO culture.",
       "points": 400,
       "verifier": "has-nft",
       "params": {
