@@ -46,6 +46,37 @@
       "params": {
         "addresses": ["0x5864a2eef51cee5fdbee8bc4649e6d38a2ff5a97"]
       }
+    },
+    {
+      "name": "🎙 Listen to Crypto Sapiens",
+      "description": "Join one Crypto Sapiens live event.",
+      "points": 100,
+      "verifier": "has-poap-ids",
+      "params": {
+        "ids": [
+          "22277",
+          "21276",
+          "19255",
+          "17058",
+          "16149",
+          "13953",
+          "13153",
+          "11003",
+          "9625",
+          "9623",
+          "9583",
+          "8849",
+          "7029",
+          "6701",
+          "6183",
+          "5757",
+          "5400",
+          "4640",
+          "4193",
+          "3827",
+          "3549"
+        ]
+      }
     }
   ]
 }
