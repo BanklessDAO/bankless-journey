@@ -1,0 +1,51 @@
+{
+  "name": "Bankless Journey 🏴🚀",
+  "version": 1,
+  "description": "It's time to start your Bankless Journey. Complete these tasks in order to be more Bankless!",
+  "website": "https://www.bankless.community/",
+  "twitter": "banklessDAO",
+  "tasks": [
+    {
+      "name": "🔑 Create a Web3 wallet",
+      "description": "Visit https://ethereum.org/wallets and install a wallet to start your Bankless journey.",
+      "points": 100,
+      "verifier": "active-address"
+    },
+    {
+      "name": "🏴 OG Bankless Member",
+      "description": "Every Bankless subscriber will receive 400 tokens for holding a Bankless Member POAP (2020 or 2021).",
+      "points": 400,
+      "verifier": "has-poap-ids",
+      "params": {
+        "ids": ["204", "885"]
+      }
+    },
+    {
+      "name": "📚 Bankless Learner",
+      "description": "Everyone who has completed at least 1 lesson on Bankless Academy will receive 400 tokens.",
+      "points": 400,
+      "verifier": "has-poap-ids",
+      "params": {
+        "ids": ["4652", "4783", "16394", "21670"]
+      }
+    },
+    {
+      "name": "✌️ Owns a DAO Punk",
+      "description": "Every DAO Punk owner will receive 400 tokens.",
+      "points": 400,
+      "verifier": "has-nft",
+      "params": {
+        "addresses": ["0x700f045de43fce6d2c25df0288b41669b7566bbe"]
+      }
+    },
+    {
+      "name": "🗺 Owns a Bankless Location",
+      "description": "Every Bankless Location owner will receive 400 tokens.",
+      "points": 400,
+      "verifier": "has-nft",
+      "params": {
+        "addresses": ["0x5864a2eef51cee5fdbee8bc4649e6d38a2ff5a97"]
+      }
+    }
+  ]
+}
