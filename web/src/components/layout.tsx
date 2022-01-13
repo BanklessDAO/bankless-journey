@@ -23,7 +23,17 @@ export function Layout(props: Props) {
 
       <Center as="footer" bg={useColorModeValue("gray.300", "gray.700")} p={6}>
         <p>
-          {"Based on "}
+          <Link
+            href="https://github.com/BanklessDAO/bankless-journey"
+            isExternal
+          >
+            Bankless Journey
+          </Link>
+          {" is an concept created by "}
+          <Link href="https://twitter.com/didierkrux" isExternal>
+            @DidierKrux
+          </Link>
+          {" based on "}
           <Link href="https://github.com/wslyvh/proof-of-competence" isExternal>
             Proof of Competence
           </Link>
