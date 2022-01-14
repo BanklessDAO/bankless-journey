@@ -1,7 +1,7 @@
 {
   "name": "Bankless Journey 🏴🚀",
   "version": 1,
-  "description": "Complete these tasks in order to start your Bankless Journey! 🏴🚀",
+  "description": "Complete these tasks to start your Bankless Journey! 🏴🚀",
   "website": "https://www.bankless.community/",
   "twitter": "banklessDAO",
   "tasks": [
@@ -13,7 +13,7 @@
     },
     {
       "name": "🏴 OG Bankless Member",
-      "description": "Bankless subscribers who own a Bankless POAP from 2020 or 2021.",
+      "description": "Bankless https://newsletter.banklesshq.com subscribers who own a Bankless POAP from 2020 or 2021.",
       "points": 400,
       "verifier": "has-poap-ids",
       "params": {
@@ -21,8 +21,17 @@
       }
     },
     {
+      "name": "🌐 Join Bankless DAO and vote on Snapshot",
+      "description": "Participate in (off-chain) governance using Snapshot and vote on min. 1 proposal.",
+      "points": 400,
+      "verifier": "voted-on-snapshot",
+      "params": {
+        "space": "banklessvault.eth"
+      }
+    },
+    {
       "name": "📚 Bankless Learner",
-      "description": "Complete at least 1 lesson on Bankless Academy.",
+      "description": "Complete lessons on Bankless Academy https://banklessacademy.com and collect POAPs as Proof of Learning.",
       "points": 400,
       "verifier": "has-poap-ids",
       "params": {
@@ -31,7 +40,7 @@
     },
     {
       "name": "✌️ Own a DAO Punk",
-      "description": "Liberate yourself from corporation and join a DAO! For all DAO Punk NFT owners.",
+      "description": "Liberate yourself from corporation and join a DAO! For all DAO Punk NFT https://opensea.io/collection/daopunksnft owners.",
       "points": 400,
       "verifier": "has-nft",
       "params": {
@@ -40,7 +49,7 @@
     },
     {
       "name": "🗺 Own a Bankless Location",
-      "description": "Own a Bankless Location NFT to own a piece of DAO culture.",
+      "description": "Own a Bankless Location NFT https://rarible.com/banklesslocations to own a piece of DAO culture.",
       "points": 400,
       "verifier": "has-nft",
       "params": {
@@ -49,7 +58,7 @@
     },
     {
       "name": "🎙 Listen to Crypto Sapiens",
-      "description": "Join one Crypto Sapiens live event.",
+      "description": "Join Crypto Sapiens https://linktr.ee/CryptoSapiensOfficial live events and receive a listener POAP.",
       "points": 100,
       "verifier": "has-poap-ids",
       "params": {
