@@ -11,7 +11,7 @@ export default class AppDocument extends Document {
             async
             defer
             data-website-id="c269202a-ea74-49c6-a26f-3c0fbe86dbe2"
-            src="https://umami.bankless.community/umami.js"
+            src="https://stats.banklessacademy.com/stats.js"
           ></script>
         </Head>
         <body>
