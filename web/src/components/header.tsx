@@ -25,6 +25,12 @@ export default function Header() {
         <Button ml={4} onClick={toggleColorMode}>
           {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
         </Button>
+
+        <NextLink href="https://twitter.com/banklessjourney" isExternal>
+          <Button ml={4}>
+          Twitter
+          </Button>
+        </NextLink>
       </Box>
     </Flex>
   )
